@@ -1,5 +1,9 @@
+/*
+ * Array Exercise 4 
+ * an integer array and removes all the duplicates in the array.
+ *  Return the resulting array in descending order
+ */
 import java.util.Arrays;
-import java.util.Collections;
 
 public class ArrayExercise4 {
 
