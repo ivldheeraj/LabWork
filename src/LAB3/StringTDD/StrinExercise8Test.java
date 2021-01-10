@@ -9,7 +9,6 @@ public class StrinExercise8Test {
 
 	private PositiveString positive;
 	private static String EMPTY_STRING="";
-	private static String WHITESPACED_STRING = "Welcome to capg ";
 	private static String NEGATIVE_STRING="DCBA";
 	private static String POSITIVE_STRING="ABCD";
 	
@@ -25,13 +24,7 @@ public class StrinExercise8Test {
 	  assertEquals(null,result);
 		
 	}
-	@Test
-	public void StringWithWhiteSpaces_AndReturnException() {
-	  String whitespaced_result="Exception";
-	  String result1=positive.checkForBlankSpace(WHITESPACED_STRING);
-	  assertEquals(whitespaced_result,result1);
-		
-	}
+	
 	
 	@Test
 	public void GivenString_ShouldReturnNegativeString() {
