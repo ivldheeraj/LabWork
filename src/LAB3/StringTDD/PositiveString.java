@@ -9,23 +9,6 @@ public class PositiveString {
 		return null;
    }
 
-	public String checkForBlankSpace(String input) {
-		// TODO Auto-generated method stub
-		int count=0;
-		String output="";
-		for(int i=0;i<input.length();i++) {
-			if(input.charAt(i)==' ') {
-				output+="Exception";
-				break;
-	}
-			else {
-	          count++;			
-	}
-			if(count==input.length())
-				output+="No Exception Caught";
-	}
-		   return output;
-	}
 
 	public String checkForString(String input) {
 		// TODO Auto-generated method stub
